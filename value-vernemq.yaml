@@ -1,0 +1,17 @@
+additionalEnv:
+  - name: DOCKER_VERNEMQ_ALLOW_REGISTER_DURING_NETSPLIT
+    value: "on"
+  - name: DOCKER_VERNEMQ_ALLOW_PUBLISH_DURING_NETSPLIT
+    value: "on"
+  - name: DOCKER_VERNEMQ_ALLOW_SUBSCRIBE_DURING_NETSPLIT
+    value: "on"
+  - name: DOCKER_VERNEMQ_ALLOW_UNSUBSCRIBE_DURING_NETSPLIT
+    value: "on"
+  - name: API_KEY
+    value: "xxxxxyyyyzzzz"
+  - name: DOCKER_VERNEMQ_USER_vernemq
+    value: "xxxxxyyyyzzzz"
+  - name: DOCKER_VERNEMQ_ACCEPT_EULA
+    value: "yes"
+  - name: ALLOW_UNSECURED_MODE
+    value: "true"
